@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE;
+}
+
+#conteudo {
+    max-width: 400px;
+    box-shadow: 4px 4px 3px rgba(122, 122, 122, 0.6);
+    padding: 30px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+#escolha {
+    margin: 10px 0 10px 0;
+}
+
+input[type="radio"] {
+    margin: 10px;
+}
+
+.ocultar {
+    display: none;
+}
+
+input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+input[type="submit"] {
+    width: 100px;
+    margin: 0 auto;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: rgba(161, 255, 224, 0.6);
+    cursor: pointer;
+}

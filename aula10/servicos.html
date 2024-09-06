@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title> LandPage Bootstrap 5 </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    <body>         
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">  
+                    <img src="img/logo.png" alt="logo" class="logo"/>
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> 
+                        <a href="index.html" class="nav-link"> Home </a> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="sobre.html" class="nav-link"> Sobre </a> 
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="servicos.html" class="nav-link active" aria-current="page"> Serviços </a>  
+                    </li>
+                    <li class="nav-item"> 
+                        <a href="contato.html" class="nav-link"> Contato </a> 
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <header class="bg-primary text-white text-center py-5">
+            <div class="container">
+                <h1> Bem vindo a nossa LandPage </h1>
+                <p class="lead"> Página exemplo de um site Comercial </p>
+            </div>
+        </header>
+        <main class="py-5">
+            <section class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3> Serviço 1</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Culpa nobis eius nesciunt 
+                                minus quidem! Facere deleniti nemo aliquid 
+                                cumque unde quasi magnam veritatis. 
+                                Delectus debitis odio id omnis vel perspiciatis.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalservico1">
+                                Leia mais...
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <h3> Serviço 2 </h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Culpa nobis eius nesciunt 
+                                minus quidem! Facere deleniti nemo aliquid 
+                                cumque unde quasi magnam veritatis. 
+                                Delectus debitis odio id omnis vel perspiciatis.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalservico2">
+                                Leia mais...
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <h3> Serviço 3</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Culpa nobis eius nesciunt 
+                                minus quidem! Facere deleniti nemo aliquid 
+                                cumque unde quasi magnam veritatis. 
+                                Delectus debitis odio id omnis vel perspiciatis.
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalservico3">
+                                Leia mais...
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="modal fade" id="modalservico1" tabindex="-1" aria-labelledby="modalServico1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalServico1Label">Mais Informações - Serviço 1</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Aqui está uma descrição detalhada sobre o Serviço 1. Inclua informações adicionais, benefícios e outros detalhes relevantes.</p>
+                      <img src="img/pexels-thisisengineering-3862132.jpg" class="img-thumbnail" alt="exemplo"/>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="modalservico2" tabindex="-1" aria-labelledby="modalServico2Label" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalServico2Label">Mais Informações - Serviço 2</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Aqui está uma descrição detalhada sobre o Serviço 2. Inclua informações adicionais, benefícios e outros detalhes relevantes.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="modalservico3" tabindex="-1" aria-labelledby="modalServico3Label" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modalServico3Label">Mais Informações - Serviço 3</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Aqui está uma descrição detalhada sobre o Serviço 3. Inclua informações adicionais, benefícios e outros detalhes relevantes.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <section class="bg-info-subtle text-center py-5">
+                <div class="container">
+                    <h2> Tabela de Informações </h2>
+                    <table class="table table-hover">
+                        <thead class="table-dark">
+                          <tr>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                            <th>Email</th>
+                            <th>Data de Nascimento</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                            <td>19-04-2001</td>
+                          </tr>
+                          <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                            <td>10-04-2001</td>
+                          </tr>
+                          <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                            <td>19-08-2001</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="table table-hover">
+                        <thead class="table-success">
+                          <tr>
+                            <th>Firstname</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                          </tr>
+                          <tr>
+                            <td>Mary</td>
+                            <td>Moe</td>
+                            <td>mary@example.com</td>
+                          </tr>
+                          <tr>
+                            <td>July</td>
+                            <td>Dooley</td>
+                            <td>july@example.com</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </section>  
+            <section class="bg-light text-center py-5">
+                <div class="container">
+                    <h2> Exemplo de LandPage utilizando bootstrap </h2>
+                    <p class="lead"> Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit.
+                    </p>
+                    <a href="#" class="btn btn btn-success btn-lg"> 
+                        Entre em Contato
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-info text-black text-center py-4">
+            
+            <div class="container">
+                <p> &copy; 2024 Minha LandPage. Todos os direitos Reservados. </p>
+                <ul class="list-inline">
+                    <li class="list-inline-item">  
+                        <a href="#" class="text-black-50"> Política de Privaciade </a>
+                    </li>
+                    <li class="list-inline-item"> 
+                        <a href="#" class="text-black-50"> Termos de Uso </a>
+                    </li>
+                </ul>
+                <div class="social-icons mt-3">
+                    <a href="#" class="text-black-50 me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-black-50 me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-black-50 me-3"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-black-50 me-3"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

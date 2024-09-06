@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula Javascript 08 </title>
+</head>
+<body>
+    <h3> Trabalhando com API's </h3>
+    <h4> Previsão do Tempo </h4>
+    <form action="#" method="post" name="prev" id="prev">
+        <label> Informe sua Cidade: </label>
+        <input type="text" id="cidade" name="cidade" required/>
+        <input type="submit" id="enviar" name="enviar" value="ENVIAR"/>
+    </form>
+    <div id="previsao" class="oculto">
+        <h2 id="city"></h2>
+        <p id="local"></p>
+        <p id="temp"></p>
+        <p id="condicoes"></p>
+        <p id="img"></p>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

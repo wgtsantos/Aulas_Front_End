@@ -1,0 +1,50 @@
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+#add {
+    max-width: 500px;
+    margin: 20px;
+    border: 1px double #555;
+    padding: 30px;
+}
+
+label {
+    font-weight: bolder;
+}
+
+input[type="text"] {
+    max-width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: rgba(43, 221, 212, 0.4);
+    border: 1px solid #555;
+    padding: 5px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 5px;
+}
+
+#palavras {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.word {
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 7px;
+    background-color: rgba(178, 253, 249, 0.4);
+}

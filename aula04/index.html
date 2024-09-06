@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula Javscript 04 </title>
+</head>
+<body>
+
+    <form action="#" method="post" name="calc" id="calc">
+        <label> Número 01: </label>
+        <input type="number" id="num1" name="num1" required/>
+        <br/>
+        <label> Número 02: </label>
+        <input type="number" id="num2" name="num2" required/>
+        <br/>
+        <label> Número 03: </label>
+        <input type="number" id="num3" name="num3" required/>
+        <br/>
+        <label>Operação: </label>
+        <select id="op" name="op" required>
+            <option value="" selected>-Selecione-</option>
+            <option value="soma"> SOMA </option>
+            <option value="sub"> SUBTRAIR </option>
+            <option value="mult"> MULTIPLICAR </option>
+            <option value="div"> DIVIDIR </option>
+            <option value="media"> MÉDIA </option>
+        </select>
+        
+        <input type="submit" id="enviar" name="enviar" value="CALCULAR"/>
+    </form>
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

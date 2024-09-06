@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula Javacript 07 </title>
+    <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+    <div id="conteudo">
+        <h2> Cadastro com Máscaras JS </h2>
+        <form action="#" method="post" name="cad" id="cad">
+            <label> Nome: </label>
+            <input type="text" id="nome" name="nome" required/>
+            <br/>
+            <div id="escolha">
+                <label> Tipo de Documento: </label>
+                <label> 
+                    <input type="radio" id="tipocpf" name="tipo" value="cpf" required /> CPF 
+                </label>
+                <label> 
+                    <input type="radio" id="tipocnpj" name="tipo" value="cnpj" required /> CNPJ 
+                </label>
+            </div>
+            <div class="ocultar" id="escolhacpf">
+                <label> CPF: </label>
+                <input type="text" id="cpf" name="cpf" required
+                pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                title="O formatado deve ser 999.999.999-99"/>
+            </div>
+            <div class="ocultar" id="escolhacnpj">
+                <label> CNPJ: </label>
+                <input type="text" id="cnpj" name="cnpj" required 
+                pattern="\d{2}\.\d{3}\.\d{3}/0001-\d{2}"
+                title="O formatado deve ser 99.999.999/0001-99"/>
+            </div>
+            <label> Telefone: </label>
+            <input type="tel" id="tel" name="tel" required 
+            pattern="\(\d{2}\) \d{4,5}-\d{4}"
+            title="O formatado deve ser (31) 99999-9999"/>
+            <br/>
+            <label> CEP: </label>
+            <input type="text" id="cep" name="cep" required
+            pattern="\d{5}-\d{3}"
+            title="O formatado deve ser 99999-999"/>
+            <br/>
+            <label> Data Nascimento: </label>
+            <input type="text" id="data_nasc" name="data_nasc" required
+            pattern="\d{2}/\d{2}/\d{4}"
+            title="O formatado deve ser 99/99/9999"/>
+            <br/>
+            <input type="submit" id="enviar" name="enviar" value="ENVIAR"/>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
